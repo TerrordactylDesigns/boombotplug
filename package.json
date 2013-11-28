@@ -1,0 +1,30 @@
+{
+  "name": "boombotplug",
+  "description": "chat and DJ bot for Plug.dj",
+  "version": "0.0.1",
+  "keywords": [
+    "plugdj",
+    "bot",
+    "boombot"
+  ],
+  "dependencies": {
+    "plugapi" : "latest",
+    "ntwitter" : "*",
+    "scribble" : ">= 0.0.4"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "author": "TerrordactylDesigns <Mbelardo1@gmail.com>",
+  "contributors": [
+    {
+      "name": "Michael Belardo",
+      "email": "Mbelardo1@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TerrordactylDesigns/boombotplug.git"
+  }
+}
