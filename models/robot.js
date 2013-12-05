@@ -26,7 +26,7 @@ var Robot = function(boombot, events, commands, config, version) {
   this.version      = version
   this.scrobble     = null
   this.startTime    = Math.round(+new Date() / 1000)
-  //this.scribble     = (this.config.lastfm.use) ? new Scribble(this.config.lastfm.API_key, this.config.lastfm.secret, this.config.lastfm.username, this.config.lastfm.password) : null
+  this.scribble     = (this.config.lastfm.use) ? new Scribble(this.config.lastfm.API_key, this.config.lastfm.secret, this.config.lastfm.username, this.config.lastfm.password) : null
 }
 
 module.exports = Robot

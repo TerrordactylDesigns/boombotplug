@@ -2,7 +2,81 @@
   "botinfo" :
   {
     "auth" : "xxxxxxxxxxxxxxxxxxxxxx",
+    "expires": "xxxxxxxxxxxxxxxxxxxxxx",
     "userid" : "xxxxxxxxxxxxxxxxxxxxxx",
     "botname" : "boombot"
+  },
+  "room": "deathcore-metalcore-hardcore-3",
+  "updatecode": "fe940d",
+  "admin" :
+  {
+    "userid" : "xxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "consolelog" : true,
+  "stats" : true,
+  "responses" :
+  {
+    "rules": "The tracks played are anything that is considered Deathcore, Metalcore, or Hardcore (or anything core for that matter).\n\n- Maximum song length is 7 minutes.\n- Please be respectful of other DJ&#39;s\n\nIf you have any issues there are plenty of managers, and bouncers that should be able to assist you.",
+    "botwelcome": "WHO DARES SUMMON BOOMBOT?!",
+    "adminwelcome": "My Master has arrived!",
+    "modwelcome": "Welcome back XXX.",
+    "welcome": "Welcome to the room XXX! Type /help to learn how to control me!",
+    "welcomepm": "Welcome to the room. Please read the rules. Or, don't and get thrown out.",
+    "botdjmode": "Aural destruction mode activated.",
+    "masterdjmode": "The Master has taken the stage! Bow before XXX!",
+    "djmode": "XXX has taken the stage to amuse my Master.",
+    "blacklisted": "You were blacklisted. Please don't come back.",
+    "unnamedlame": "Ouch. Someone thinks you're lame.....",
+    "namedlame": "XXXX thinks your song sucks..",
+    "booteduser": "So glad they are gone.....",
+    "autodjup": "Forget the whales! SAVE THE BEATS!",
+    "autodjdown": "Looks like the rooms a rockin, I'll step down.",
+    "notyourturn": "Not your turn @XXXX type q to see the order, or q+ to add yourself.",
+    "djsteppeddown": "Everyone give it up for XXXX!",
+    "vip": "Everyone step aside, let @XXXX through.",
+    "notheme": "No theme right now. So, you know, play some TOOL....",
+    "wrongtheme": "Set theme to: Twilight Soundtrack"
+  },
+  "twitter" :
+  {
+    "tweet" : false,
+    "consumer_key" : "xxxxxxxxxxxxxxxxxxxxxx",
+    "consumer_secret" : "xxxxxxxxxxxxxxxxxxxxxx",
+    "access_token_key" : "xxxxxxxxxxxxxxxxxxxxxx",
+    "access_token_secret" : "xxxxxxxxxxxxxxxxxxxxxx",
+    "roomurl" : "http://plug.dj/deathcore-metalcore-hardcore-3"
+  },
+  "lastfm" :
+  {
+    "scrobble": false,
+    "use": false,
+    "API_key": "xxxxxxxxxxxxxxxxxxxxxx",
+    "secret": "xxxxxxxxxxxxxxxxxxxxxx",
+    "username": "xxxxxxxxxxxxxxxxxxxxxx",
+    "password": "xxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "database" :
+  {
+    "use" : false,
+    "mongo": {
+      "use": true,
+      "username": "xxxxxxxxxxxxxxxxxxxxxx",
+      "password": "xxxxxxxxxxxxxxxxxxxxxx",
+      "path": "xxxxxxxxxxxxxxxxxxxxxx"
+    },
+    "mysql": {
+      "use": false,
+      "username": "xxxxxxxxxxxxxxxxxxxxxx",
+      "password": "xxxxxxxxxxxxxxxxxxxxxx",
+      "dbname": "xxxxxxxxxxxxxxxxxxxxxx",
+      "path": "xxxxxxxxxxxxxxxxxxxxxx"
+    },
+    "sqlite": {
+      "use": false,
+      "username": "xxxxxxxxxxxxxxxxxxxxxx",
+      "password": "xxxxxxxxxxxxxxxxxxxxxx",
+      "dbname": "xxxxxxxxxxxxxxxxxxxxxx",
+      "path": "xxxxxxxxxxxxxxxxxxxxxx"
+    }
   }
 }
