@@ -21,7 +21,7 @@ var RunBot = function() {
   // theres gotta be a better way for this next part
   // but im going test happy and just needed them split for now...
   commands    = load.LoadCore(commands)
-  //commands    = load.LoadOptional(commands)
+  commands    = load.LoadOptional(commands)
   var bot     = Boombot.loadBot(config)
     , boombot = Boombot.run(bot, events, commands, config, version)
 }
