@@ -2,8 +2,7 @@
 
 ##TT is dead... Boom Bot is forever.
 
-
-###NOTE - THIS REQUIRES [Forever](https://github.com/nodejitsu/forever) OR A SIMILAR PROCESS WATCHER TO WORK CURRENTLY
+##NOTE: CURRENTLY REQUIRES THE DEV VERSION OF PLUGAPI, DO NOT USE THE NPM ONE, MANUALLY DOWNLOAD THE GITHUB DEV CODE
 
 This is a heavy work in progress. Please see https://github.com/TerrordactylDesigns/boombot for commands. Several are not ported yet, DEAL WITH IT.
 

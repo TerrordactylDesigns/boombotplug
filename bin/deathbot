@@ -1,0 +1,30 @@
+#!/usr/bin/env node
+// vim:ft=javascript:
+/*<><><><><><><><><><><><><><><><><><><>
+              VARIABLES
+<><><><><><><><><><><><><><><><><><><>*/
+var blacklist
+  , Deathbot   = require('..')
+  , commands  = []
+  , config    = {}
+  , events    = require('../lib/events')
+  //, events = null
+  , load      = require('../lib/load')
+  , version   = 'V' + require('../package.json').version
+console.log(version)
+/**/// Public: where does he get those wonderful toys?
+/**///
+/**/// Returns
+/**/// return - a shiny new robot
+var RunBot = function() {
+  config      = load.ParseConfig(version)
+  // TODO
+  // theres gotta be a better way for this next part
+  // but im going test happy and just needed them split for now...
+  commands    = load.LoadCore(commands)
+  commands    = load.LoadOptional(commands)
+  var bot     = Deathbot.loadBot(config)
+    , deathbot = Deathbot.run(bot, events, commands, config, version)
+}
+
+module.exports = RunBot()

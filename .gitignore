@@ -1,3 +1,5 @@
 .DS_Store
 config.json
 info.txt
+node_modules
+server
