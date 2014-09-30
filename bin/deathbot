@@ -8,7 +8,6 @@ var blacklist
   , commands  = []
   , config    = {}
   , events    = require('../lib/events')
-  //, events = null
   , load      = require('../lib/load')
   , version   = 'V' + require('../package.json').version
 console.log(version)

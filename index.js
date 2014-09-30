@@ -20,7 +20,6 @@ exports.loadBot = function(config) {
 /**/// events     - event handlers
 /**/// commands   - array of bot commands
 /**/// config     - parsed config.json
-/**/// blacklist  - array of blacklist objects
 /**/// version    - bot version
 /**///
 /**/// Returns

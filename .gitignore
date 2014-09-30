@@ -3,3 +3,4 @@ config.json
 info.txt
 node_modules
 server
+roomState.json

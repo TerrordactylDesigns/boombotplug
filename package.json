@@ -1,10 +1,11 @@
 {
   "name": "boombotplug",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {
     "plugapi": "latest",
     "scribble": "latest",
-    "ntwitter": "latest"
+    "ntwitter": "latest",
+    "mongojs": "~0.14.1"
   },
   "devDependencies": {
     "grunt": "latest",
