@@ -8,6 +8,8 @@ This is a heavy work in progress. Please see https://github.com/TerrordactylDesi
 
 Note: due to plug attempting to parse all / commands they are being modified to . commands.
 
+Download [Boombots Scripts](https://github.com/TerrordactylDesigns/Boombot-Scripts) and copy the ones you want into the scripts folder.
+
 ###Working Bits
 
 * It enters the room... Small victories.
